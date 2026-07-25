@@ -27,23 +27,3 @@
 npm install
 npx expo run:android
 ```
-
-## Структура
-
-```
-src/
-├── components/
-│   ├── RestTimer.tsx        — таймер отдыха
-│   └── RPEPicker.tsx        — выбор RPE
-├── screens/
-│   ├── HomeScreen.tsx       — главная (стата, PR, история)
-│   ├── NewWorkoutScreen.tsx — выбор упражнений
-│   ├── ActiveWorkoutScreen.tsx — активная тренировка
-│   ├── StatsScreen.tsx      — статистика
-│   ├── TemplatesScreen.tsx  — шаблоны тренировок
-│   └── ExerciseProgressScreen.tsx — прогресс упражнения
-├── storage/storage.ts       — AsyncStorage + PR логика
-├── data/exercises.ts        — 17 упражнений
-├── types/types.ts           — TypeScript типы
-└── navigation/AppNavigator.tsx — навигация
-```
